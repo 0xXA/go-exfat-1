@@ -10,7 +10,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/jessevdk/go-flags"
 
-	"github.com/dsoprea/go-exfat"
+	"github.com/0xXA/go-exfat-1"
 )
 
 type rootParameters struct {

@@ -6,7 +6,7 @@ import (
 	"github.com/dsoprea/go-logging"
 	"github.com/jessevdk/go-flags"
 
-	"github.com/dsoprea/go-exfat"
+	"github.com/0xXA/go-exfat-1"
 )
 
 type rootParameters struct {

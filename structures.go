@@ -1081,10 +1081,6 @@ func (er *ExfatReader) WriteFromClusterChain(firstClusterNumber uint32, dataSize
 	err = er.EnumerateClusters(firstClusterNumber, clusterCb, useFat)
 	log.PanicIf(err)
 
-	if written != dataSize {
-		log.Panicf("written bytes do not equal data-size: (%d) != (%d)", written, dataSize)
-	}
-
 	return visitedClusters, visitedSectors, nil
 }
 

@@ -111,9 +111,9 @@ func (et EntryType) String() string {
 // identify an entry-type (`isCritical` corresponds directly to
 // `TypeImportance` and `isPrimary` corresponds directly to `TypeCategory`):
 //
-//  6.2.1.1 TypeCode Field
+//	6.2.1.1 TypeCode Field
 //
-//  The TypeCode field partially describes the specific type of the given directory entry. This field, plus the TypeImportance and TypeCategory fields (see Sections 6.2.1.2 and 6.2.1.3, respectively) uniquely identify the type of the given directory entry.
+//	The TypeCode field partially describes the specific type of the given directory entry. This field, plus the TypeImportance and TypeCategory fields (see Sections 6.2.1.2 and 6.2.1.3, respectively) uniquely identify the type of the given directory entry.
 type DirectoryEntryParserKey struct {
 	typeCode   int
 	isCritical bool
